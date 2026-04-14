@@ -6,7 +6,7 @@ const FriendsList = () => {
   const { friends, loading } = useFriends();
 
   return (
-    <section className="bg-[#F0F4F3] py-16 md:py-20">
+    <section className="bg-[#F0F4F3] py-10">
       <div className="max-w-[1280px] mx-auto px-4 md:px-6">
         <h2 className="text-[#1a2e1a] text-[28px] md:text-[36px] font-bold mb-8">
           Your Friends

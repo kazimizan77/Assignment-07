@@ -7,7 +7,7 @@ const useFriends = () => {
   useEffect(() => {
     const fetchFriends = async () => {
       try {
-        const res = await fetch("/public/friends.json");
+        const res = await fetch("/friends.json");
         const data = await res.json();
 
         setTimeout(() => {

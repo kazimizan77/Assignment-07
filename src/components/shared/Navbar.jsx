@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="max-w-[1280px] mx-auto px-4 md:px-6 h-[74px] flex items-center justify-between">
         <img src={logo} alt="KeenKeeper logo" className="h-[32px]" />
 
-        <ul className="hidden md:flex items-center gap-2">
+        <ul className="hidden md:flex items-center gap-2 cursor-pointer">
           {navItems.map((item) => (
             <li key={item.path}>
               <MyNavLink to={item.path}>

@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white border-b border-[#E5E7EB]">
       <div className="max-w-[1280px] mx-auto px-4 md:px-6 h-[64px] flex items-center justify-between">
-        <img src={logo} alt="KeenKeeper" className="h-[32px]" />
+        <img src={logo} alt="KeenKeeper logo" className="h-[32px]" />
 
         <ul className="hidden md:flex items-center gap-2">
           {navItems.map((item) => (

@@ -22,6 +22,7 @@ const Stats = () => {
             </div>
           ))}
         </div>
+        <div className="border-b border-[#e9e9e9] mt-10"></div>
       </div>
     </section>
   );

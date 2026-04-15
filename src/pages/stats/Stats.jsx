@@ -22,7 +22,7 @@ const Stats = () => {
           Friendship Analytics
         </h2>
 
-        <div className="bg-white border border-[#E5E7EB] rounded-md xl: p-8">
+        <div className="bg-white border border-[#E5E7EB] rounded-md p-8">
           <h3 className="text-[#244d3fFF] text-[20px] font-semibold mb-6">
             By Interaction Type
           </h3>

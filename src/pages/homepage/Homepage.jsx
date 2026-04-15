@@ -1,12 +1,12 @@
 import Banner from "../../components/homepage/Banner";
-import Stats from "../../components/homepage/Stats";
+import SummaryCards from "../../components/homepage/SummaryCards";
 import FriendsList from "../../components/homepage/FriendsList";
 
 const Homepage = () => {
   return (
     <>
       <Banner />
-      <Stats />
+      <SummaryCards />
       <FriendsList />
     </>
   );

@@ -1,15 +1,9 @@
 import { useContext } from "react";
 import { useParams, useNavigate } from "react-router";
 import { HashLoader } from "react-spinners";
-import {
-  LuPhone,
-  LuMessageSquare,
-  LuVideo,
-  LuTrash2,
-} from "react-icons/lu";
+import { LuPhone, LuMessageSquare, LuVideo, LuTrash2 } from "react-icons/lu";
 import { HiOutlineBellSnooze } from "react-icons/hi2";
 import { BsArchive } from "react-icons/bs";
-
 
 import { toast } from "react-toastify";
 import useFriends from "../../hooks/useFriends";
@@ -54,22 +48,6 @@ const FriendDetails = () => {
     return (
       <div className="h-[60vh] flex justify-center items-center bg-[#F0F4F3]">
         <HashLoader color="#2D4A3E" />
-      </div>
-    );
-  }
-
-  if (!friend) {
-    return (
-      <div className="h-[60vh] flex flex-col justify-center items-center bg-[#F0F4F3]">
-        <h2 className="text-2xl font-bold text-[#1a2e1a] mb-4">
-          Friend not found!
-        </h2>
-        <button
-          onClick={() => navigate(-1)}
-          className="px-6 py-3 bg-[#2D4A3E] text-white rounded-md hover:bg-[#1f3329] transition"
-        >
-          Go Back
-        </button>
       </div>
     );
   }

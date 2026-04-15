@@ -32,7 +32,7 @@
 
 const SummaryCards = () => {
   return (
-    <section className="bg-[#F0F4F3] py-10">
+    <section className="bg-[#f8fafcFF] py-10">
       <div className="max-w-[1280px] mx-auto px-4 md:px-6">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           <div className="bg-white border border-[#E5E7EB] rounded-xl p-6 text-center hover:shadow-md hover:-translate-y-1 transition duration-300">

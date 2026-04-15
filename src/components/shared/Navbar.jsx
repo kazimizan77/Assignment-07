@@ -1,20 +1,20 @@
-import { LuHouse, LuChartLine, LuClock } from "react-icons/lu";
+import { LuHouse, LuChartLine, LuClock3 } from "react-icons/lu";
 import MyNavLink from "./MyNavLink";
 import logo from "../../assets/images/logo.png";
 
 const Navbar = () => {
   const navItems = [
     { path: "/", text: "Home", icon: <LuHouse /> },
-    { path: "/timeline", text: "Timeline", icon: <LuClock /> },
+    { path: "/timeline", text: "Timeline", icon: <LuClock3 /> },
     { path: "/stats", text: "Stats", icon: <LuChartLine /> },
   ];
 
   return (
     <nav className="bg-white border-b border-[#e9e9e9FF]">
-      <div className="max-w-[1280px] mx-auto px-4 md:px-6 h-[74px] flex items-center justify-between">
+      <div className="max-w-[1280px] mx-auto px-4 py-4 md:px-6 h-[74px] flex items-center justify-between">
         <img src={logo} alt="KeenKeeper logo" className="h-[32px]" />
 
-        <ul className="hidden md:flex items-center gap-2 cursor-pointer">
+        <ul className="hidden md:flex items-center gap-4 cursor-pointer">
           {navItems.map((item) => (
             <li key={item.path}>
               <MyNavLink to={item.path}>

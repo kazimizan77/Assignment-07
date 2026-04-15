@@ -9,14 +9,17 @@ const Banner = () => {
         </h1>
 
         <p className="text-[#64748bFF] leading-relaxed mx-auto mb-8">
-          Your personal shelf of meaningful connections. Browse, tend, and nurture the
-          <br/>
+          Your personal shelf of meaningful connections. Browse, tend, and
+          nurture the
+          <br />
           relationships that matter most.
         </p>
 
-        <button className="flex items-center gap-2 mx-auto px-6 py-3 bg-[#2D4A3E] text-white text-[15px] font-medium rounded-md hover:bg-[#1f3329] transition cursor-pointer">
-          <LuPlus className="text-[18px]" />
-          Add a Friend
+        <button className="btn border-none bg-[#2D4A3E] text-white hover:bg-[#1f3329] px-6 min-h-0 h-12 flex items-center gap-2 mx-auto">
+          <LuPlus size={18} />
+          <span className="capitalize font-medium text-[15px]">
+            Add a Friend
+          </span>
         </button>
       </div>
     </section>

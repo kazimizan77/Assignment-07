@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { useParams, useNavigate } from "react-router";
+import { useParams } from "react-router";
 import { HashLoader } from "react-spinners";
 import { LuPhoneCall, LuVideo, LuTrash2 } from "react-icons/lu";
 import { TbMessageDots } from "react-icons/tb";
@@ -12,7 +12,6 @@ import { TimelineContext } from "../../context/TimelineContext";
 
 const FriendDetails = () => {
   const { id } = useParams();
-  const navigate = useNavigate();
   const { friends, loading } = useFriends();
   const { addToTimeline } = useContext(TimelineContext);
 
@@ -32,7 +31,7 @@ const FriendDetails = () => {
 
   const handleCheckIn = (type) => {
     const entry = {
-      id: Date.now(),
+      id: crypto.randomUUID(),
       type,
       friendName: friend.name,
       date: new Date().toLocaleDateString("en-US", {
@@ -82,7 +81,9 @@ const FriendDetails = () => {
                   </span>
                 ))}
               </div>
-              <p className="text-[#64748bFF] font-medium italic mb-3">"{friend.bio}"</p>
+              <p className="text-[#64748bFF] font-medium italic mb-3">
+                "{friend.bio}"
+              </p>
               <p className="text-[#64748bFF] text-[14px]">
                 Preferred: {friend.email}
               </p>

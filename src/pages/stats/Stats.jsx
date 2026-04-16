@@ -16,20 +16,20 @@ const Stats = () => {
   ];
 
   return (
-    <section className="bg-[#F0F4F3] min-h-screen py-14 md:py-16">
+    <section className="bg-[#F0F4F3] min-h-screen py-10 md:py-20">
       <div className="max-w-[1280px] mx-auto px-4 md:px-6">
-        <h2 className="text-[#1f2937FF] text-[32px] md:text-[42px] font-bold mb-6">
+        <h2 className="text-[#1f2937FF] text-[32px] md:text-[48px] font-bold mb-6">
           Friendship Analytics
         </h2>
 
-        <div className="bg-white border border-[#E5E7EB] rounded-md p-8">
-          <h3 className="text-[#244d3fFF] text-[20px] font-semibold mb-6">
+        <div className="bg-white border border-[#E5E7EB] rounded-xl shadow-xl p-8">
+          <h3 className="text-[#244d3fFF] text-[20px] font-medium mb-6">
             By Interaction Type
           </h3>
 
           {timeline.length === 0 ? (
             <div className="text-center py-20">
-              <p className="text-[#6B7280] text-[16px]">
+              <p className="text-gray-500 text-[15px] md:text-[20px]">
                 No interactions yet. Log some check-ins first!
               </p>
             </div>

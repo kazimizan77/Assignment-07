@@ -2,7 +2,7 @@ import { LuPlus } from "react-icons/lu";
 
 const Banner = () => {
   return (
-    <section className="bg-[#f8fafcFF] pt-16 md:pt-20">
+    <section className="bg-[#f8fafcFF] pt-10 md:pt-20">
       <div className="max-w-[1280px] mx-auto px-4 md:px-6 text-center">
         <h1 className="text-gray-800 text-[38px] md:text-[42px] lg:text-[48px] font-bold leading-tight mb-4">
           Friends to keep close in your life

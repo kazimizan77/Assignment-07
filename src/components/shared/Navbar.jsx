@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white border-b border-[#e9e9e9FF]">
-      <div className="max-w-[1280px] mx-auto px-4 py-4 md:px-6 h-[74px] flex items-center justify-between">
+      <div className="max-w-[1600px] mx-auto px-4 py-4 md:px-6 h-[74px] flex items-center justify-between">
         <img src={logo} alt="KeenKeeper logo" className="h-[32px]" />
 
         <ul className="hidden md:flex items-center gap-4 cursor-pointer">

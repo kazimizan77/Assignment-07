@@ -6,7 +6,7 @@ import x from "../../assets/images/twitter.png";
 const Footer = () => {
   return (
     <footer className="bg-[#244d3fFF] text-white">
-      <div className="max-w-[1280px] mx-auto px-4 md:px-6 py-16 text-center">
+      <div className="max-w-[1600px] mx-auto px-4 md:px-6 py-16 text-center">
         <img src={logo} alt="footer logo" className="h-[40px] mx-auto mb-4" />
 
         <p className="text-white/80 mb-6">

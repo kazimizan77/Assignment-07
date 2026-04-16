@@ -2,8 +2,8 @@ const SummaryCards = () => {
   return (
     <section className="bg-[#f8fafcFF] py-8 md:py-10">
       <div className="max-w-[1280px] mx-auto px-4 md:px-6">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-          <div className="bg-white border border-[#E5E7EB] rounded-xl p-8 text-center hover:shadow-md hover:-translate-y-1 transition duration-400">
+        <div className="grid grid-cols-2 xl:grid-cols-4 gap-6">
+          <div className="group bg-white border border-gray-200 rounded-xl p-8 text-center shadow-sm hover:shadow-xl hover:-translate-y-2 hover:border-gray-200 transition-all duration-300 ease-out">
             <h3 className="text-[#244d3fFF] text-[32px] md:text-[36px] font-bold">
               8
             </h3>
@@ -11,7 +11,7 @@ const SummaryCards = () => {
               Total Friends
             </p>
           </div>
-          <div className="bg-white border border-[#E5E7EB] rounded-xl p-8 text-center hover:shadow-md hover:-translate-y-1 transition duration-400">
+          <div className="group bg-white border border-gray-200 rounded-xl p-8 text-center shadow-sm hover:shadow-xl hover:-translate-y-2 hover:border-gray-200 transition-all duration-300 ease-out">
             <h3 className="text-[#244d3fFF] text-[32px] md:text-[36px] font-bold">
               3
             </h3>
@@ -19,7 +19,7 @@ const SummaryCards = () => {
               On Track
             </p>
           </div>
-          <div className="bg-white border border-[#E5E7EB] rounded-xl p-8 text-center hover:shadow-md hover:-translate-y-1 transition duration-400">
+          <div className="group bg-white border border-gray-200 rounded-xl p-8 text-center shadow-sm hover:shadow-xl hover:-translate-y-2 hover:border-gray-200 transition-all duration-300 ease-out">
             <h3 className="text-[#244d3fFF] text-[32px] md:text-[36px] font-bold">
               4
             </h3>
@@ -27,7 +27,7 @@ const SummaryCards = () => {
               Need Attention
             </p>
           </div>
-          <div className="bg-white border border-[#E5E7EB] rounded-xl p-8 text-center hover:shadow-md hover:-translate-y-1 transition duration-400">
+          <div className="group bg-white border border-gray-200 rounded-xl p-8 text-center shadow-sm hover:shadow-xl hover:-translate-y-2 hover:border-gray-200 transition-all duration-300 ease-out">
             <h3 className="text-[#244d3fFF] text-[32px] md:text-[36px] font-bold">
               6
             </h3>

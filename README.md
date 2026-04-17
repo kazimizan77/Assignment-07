@@ -7,7 +7,7 @@ KeenKeeper is a responsive relationship management app built with React and Tail
 ## Technologies Used
 
 - React.js
-- React Router v7
+- React Router
 - Tailwind CSS
 - DaisyUI
 - JavaScript (ES6)
@@ -21,10 +21,10 @@ KeenKeeper is a responsive relationship management app built with React and Tail
 
 ## Features
 
-1. Friends dashboard with status badges (On Track, Almost Due, Overdue)
-2. Friend Details page with stats, relationship goal, and Quick Check-In (Call, Text, Video)
-3. Timeline page to view all logged interactions with filter option
-4. Friendship Analytics page with interactive donut chart
-5. Toast notifications when a check-in is logged
-6. Custom 404 Not Found page
-7. Fully responsive design (Mobile, Tablet, Desktop)
+- Friends dashboard with status badges (On Track, Almost Due, Overdue)
+- Friend Details page with stats, relationship goal, and Quick Check-In (Call, Text, Video)
+- Timeline page to view all logged interactions with filter option
+- Friendship Analytics page with interactive donut chart
+- Toast notifications when a check-in is logged
+- Custom 404 Not Found page
+- Fully responsive design (Mobile, Tablet, Desktop)

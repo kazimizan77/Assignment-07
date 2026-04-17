@@ -110,7 +110,7 @@ const FriendDetails = () => {
           <div className="flex flex-col gap-6">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               <div className="bg-white border border-[#E5E7EB] rounded-xl px-4 py-8 text-center">
-                <h3 className="text-[#244d3fFF;] text-[30px] font-bold">
+                <h3 className="text-[#244d3fFF] text-[30px] font-bold">
                   {friend.days_since_contact}
                 </h3>
                 <p className="text-[#6B7280] text-[18px] mt-1">
@@ -118,13 +118,13 @@ const FriendDetails = () => {
                 </p>
               </div>
               <div className="bg-white border border-[#E5E7EB] rounded-xl px-4 py-8 text-center">
-                <h3 className="text-[#244d3fFF;] text-[30px] font-bold">
+                <h3 className="text-[#244d3fFF] text-[30px] font-bold">
                   {friend.goal}
                 </h3>
                 <p className="text-[#6B7280] text-[18px] mt-1">Goal (Days)</p>
               </div>
               <div className="bg-white border border-[#E5E7EB] rounded-xl px-4 py-8 text-center">
-                <h3 className="text-[#244d3fFF;] text-[30px] font-bold">
+                <h3 className="text-[#244d3fFF] text-[30px] font-bold">
                   {new Date(friend.next_due_date).toLocaleDateString("en-US", {
                     month: "short",
                     day: "numeric",

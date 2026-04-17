@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { TimelineContext } from "../../context/TimelineContext";
-import { PieChart, Pie, Legend, Tooltip } from "recharts";
+import { PieChart, Pie, Legend, Tooltip, ResponsiveContainer } from "recharts";
 
 const Stats = () => {
   const { timeline } = useContext(TimelineContext);
@@ -34,8 +34,8 @@ const Stats = () => {
               </p>
             </div>
           ) : (
-            <div className="flex justify-center">
-              <PieChart width={400} height={400}>
+            <ResponsiveContainer width="100%" height={400}>
+              <PieChart>
                 <Pie
                   data={data}
                   innerRadius="60%"
@@ -48,7 +48,7 @@ const Stats = () => {
                 <Legend />
                 <Tooltip />
               </PieChart>
-            </div>
+            </ResponsiveContainer>
           )}
         </div>
       </div>
